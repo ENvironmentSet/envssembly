@@ -1,0 +1,28 @@
+.bss
+evs
+.data
+
+evn 1
+ev "hi"
+
+
+.code
+
+job:
+    mov ev, "bye world"
+    lea ax, ev
+    mov bx, [ax]
+    mov ax, 0
+    mov cx, 100
+    emucall
+    jmp end
+
+_start:
+    mov ax,0
+    mov bx,"Hello, world"
+    mov cx, 100
+    emucall
+    jmp job
+
+end:
+    exit
