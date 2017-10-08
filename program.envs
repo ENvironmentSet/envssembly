@@ -1,28 +1,17 @@
 .bss
-evs
-.data
+      Hello
+      ;변수 선언
+    .code
+      _start:
+         mov Hello, "Hello, world"
+         ;변수에 "Hello, world" 저장
+         mov ax, 0
+         ; 0번 함수 선택
+         mov bx, Hello
+         ; 출력할 문자열 지정
+         mov cx, 13
+         ; 출력할 문자열의 길이
+         emucall
+          ;에율레이터 0번 함수(콘솔 출력) 호출
 
-evn 1
-ev "hi"
-
-
-.code
-
-job:
-    mov ev, "bye world"
-    lea ax, ev
-    mov bx, [ax]
-    mov ax, 0
-    mov cx, 100
-    emucall
-    jmp end
-
-_start:
-    mov ax,0
-    mov bx,"Hello, world"
-    mov cx, 100
-    emucall
-    jmp job
-
-end:
-    exit
+         exit
