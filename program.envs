@@ -2,7 +2,7 @@
       Hello
       ;변수 선언
     .code
-      _start:
+      main:
          mov Hello, "Hello, world"
          ;변수에 "Hello, world" 저장
          mov ax, 0
