@@ -1,6 +1,6 @@
 {
   "name": "esay-assembly",
-  "version": "0.1.0",
+  "version": "1.0.0 w (red-apple)",
   "private": false,
   "scripts": {
     "start": "node ./execute.js"
