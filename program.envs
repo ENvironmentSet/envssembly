@@ -1,11 +1,9 @@
-.bss
-      Hello
-      ;변수 선언
+
     .code
-          main:
-         mov Hello, "Hello, world"
+         main:
+         mov ax, "Hello, world"
          ;변수에 "Hello, world" 저장
-         mov ax, 0
+         mov ax, 1
          ; 0번 함수 선택
          mov [ax+34], 123
          ; 출력할 문자열 지정
