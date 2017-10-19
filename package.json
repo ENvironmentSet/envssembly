@@ -2,10 +2,15 @@
   "name": "esay-assembly",
   "version": "1.0.0 w (red-apple)",
   "private": false,
-  "scripts": {
-    "start": "node ./execute.js"
+  "repository": {
+    "type": "git",
+    "url": "github.com/ENvironmentSet/envssembly/"
   },
-  "repository":"github.com/ENvironmentSet/envssembly/",
-  "description": "easy-assembly like laguage",
-  "license": "GNU General Public License v3"
+  "description": "esay-assembly like laguage",
+  "license": "GNU General Public License v3",
+  "author": {
+    "name" : "ENvironmentSet",
+    "email" : "sbshw1@gmail.com",
+    "url" : "http://119.70.70.72:8080/"
+  }
 }

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be63f6d8-c911-49e9-a1a5-ae71c3b4ad00" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/execute.js" afterPath="$PROJECT_DIR$/execute.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Runner.js" afterPath="$PROJECT_DIR$/lib/Runner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cmd_opcode.js" afterPath="$PROJECT_DIR$/lib/cmd_opcode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/command_function.js" afterPath="$PROJECT_DIR$/lib/command_function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/typeCheck.js" afterPath="$PROJECT_DIR$/lib/typeCheck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program.envs" afterPath="$PROJECT_DIR$/program.envs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +20,40 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Runner.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Runner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="130" column="52" lean-forward="true" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="execute.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/execute.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#51#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,16 +88,17 @@
         <option value="$PROJECT_DIR$/README[KR].md" />
         <option value="$PROJECT_DIR$/add_String.envs" />
         <option value="$PROJECT_DIR$/funny_stack.envs" />
-        <option value="$PROJECT_DIR$/execute.js" />
         <option value="$PROJECT_DIR$/lib/Memory.js" />
         <option value="$PROJECT_DIR$/lib/Register.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/typeCheck.js" />
         <option value="$PROJECT_DIR$/lib/StringBuffer.js" />
         <option value="$PROJECT_DIR$/program.envs" />
         <option value="$PROJECT_DIR$/lib/cmd_opcode.js" />
-        <option value="$PROJECT_DIR$/lib/Runner.js" />
         <option value="$PROJECT_DIR$/lib/command_function.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/lib/Runner.js" />
+        <option value="$PROJECT_DIR$/config.conf" />
+        <option value="$PROJECT_DIR$/execute.js" />
       </list>
     </option>
   </component>
@@ -242,7 +275,7 @@
       <workItem from="1508046229587" duration="9000" />
       <workItem from="1508046321468" duration="9000" />
       <workItem from="1508140563188" duration="23990000" />
-      <workItem from="1508415390063" duration="6705000" />
+      <workItem from="1508415390063" duration="7990000" />
     </task>
     <task id="LOCAL-00001" summary="bug fix,update">
       <created>1507472649034</created>
@@ -272,11 +305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508251880692</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ERun 1.0.0w (red-apple) 실행기 제작 완료. 이제 남은건 명령어에 대응하는 함수 제작.">
+      <created>1508422471433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508422471433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45814000" />
+    <option name="totallyTimeSpent" value="47099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,17 +401,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug fix,update" />
     <MESSAGE value="fix Runner.run param" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix Runner.run param" />
+    <MESSAGE value="ERun 1.0.0w (red-apple) 실행기 제작 완료. 이제 남은건 명령어에 대응하는 함수 제작." />
+    <option name="LAST_COMMIT_MESSAGE" value="ERun 1.0.0w (red-apple) 실행기 제작 완료. 이제 남은건 명령어에 대응하는 함수 제작." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/Runner.js</url>
-          <line>104</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
@@ -506,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -527,22 +554,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README[KR].md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="141" column="13" lean-forward="false" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_String.envs" />
     <entry file="file://$PROJECT_DIR$/funny_stack.envs" />
-    <entry file="file://$PROJECT_DIR$/execute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -554,6 +567,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="61" column="27" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -561,14 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="156" column="35" lean-forward="false" selection-start-line="156" selection-start-column="35" selection-end-line="156" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -607,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Runner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="170" column="17" lean-forward="false" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/cmd_opcode.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -626,6 +624,56 @@
             <element signature="e#1170#4805#0" expanded="false" />
             <element signature="e#4909#5192#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README[KR].md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1834">
+          <caret line="141" column="13" lean-forward="false" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="130" column="52" lean-forward="true" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
