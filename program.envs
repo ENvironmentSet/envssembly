@@ -1,8 +1,10 @@
+ .data
+         hex 15
  .code
          a:
          mov ax,1
          mov dx, "Hello, world"
-         mov cx,15
+         mov cx, hex
          emucall
 
          exit
