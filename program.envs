@@ -1,15 +1,8 @@
-
-    .code
-         main:
-         mov ax, "Hello, world"
-         ;변수에 "Hello, world" 저장
-         mov ax, 1
-         ; 0번 함수 선택
-         mov [ax+34], 123
-         ; 출력할 문자열 지정
-         mov cx, 13
-         ; 출력할 문자열의 길이
+ .code
+         a:
+         mov ax,1
+         mov dx, "Hello, world"
+         mov cx,15
          emucall
-          ;에율레이터 0번 함수(콘솔 출력) 호출
 
          exit
