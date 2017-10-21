@@ -1,10 +1,19 @@
  .data
          hex 15
  .code
-         a:
-         mov ax,1
-         mov dx, "Hello, world"
-         mov cx, hex
-         emucall
+   output:
+             mov ax,3
+             lea dx, hex
+             mov cx,100
+             emucall
 
-         exit
+             exit
+         input:
+                  mov ax, 2
+                  lea dx, hex
+                  mov cx, 100
+                  emucall
+
+                  jmp output
+
+
