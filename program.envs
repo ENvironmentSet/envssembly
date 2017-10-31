@@ -2,18 +2,12 @@
          hex 15
  .code
    output:
+             mov hex,"hi, world"
              mov ax,3
              lea dx, hex
              mov cx,100
              emucall
 
              exit
-         input:
-                  mov ax, 2
-                  lea dx, hex
-                  mov cx, 100
-                  emucall
-
-                  jmp output
 
 

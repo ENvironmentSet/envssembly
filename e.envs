@@ -1,4 +1,4 @@
  .code
          main:
 
-         jmp input
+         jmp output
